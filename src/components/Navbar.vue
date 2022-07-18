@@ -1,17 +1,13 @@
 <template>
 <header>
-  <div class="navbar">
-    <div class="navbar-brand">
-      <h4>uronshala.</h4>
-          <div class="navbar-links">
-            <ul>
-              <li>Home</li>
-              <li>About Me</li>
-              <li>Links</li>
-            </ul>
-          </div>
-    </div>
-  </div>
+<nav>
+  <label class="brand">uronshala</label>
+  <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Github</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
 </header>
 
 </template>
@@ -25,39 +21,43 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .navbar {
-    display:flex;
-    align-content: center;
-    height: 80px;
-    width: 100%;
-    background-color:#0c120c;
-  }
-  .navbar-brand{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar-brand h4{
-    color:#db3a34;
-    font-size: 32px;
-    text-align: left;
-  }
-  .navbar-links{
-    color:#db3a34;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar-links ul{
-    list-style: none;
-  }
-  .navbar-links li{
-    display: inline-block;
-    margin:0px 5px 0px 5px;
-    font-size: 28px;
-  }
-  body{
-    margin: 0px !important;
-  }
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style:none;
+  box-sizing: border-box;
+}  
+nav{
+  background: #94b49f;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  z-index: 10;
+}
+label.brand{
+  color:white;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+}
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+nav ul li{ 
+  display: inline-block;
+  margin: 0 9px;
+}
+nav ul li a{
+  color:white;
+  font-size: 18px;
+  font-weight: 400;
+}
+nav ul li a:hover{
+  font-weight:500;
+}
+
 </style>
