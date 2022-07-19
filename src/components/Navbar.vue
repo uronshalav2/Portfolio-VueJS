@@ -27,9 +27,10 @@ export default {
   text-decoration: none;
   list-style:none;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }  
 nav{
-  background: #94b49f;
+  background: #395b64;
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -40,8 +41,8 @@ nav{
 label.brand{
   color:white;
   font-size: 28px;
-  font-weight: 600;
-  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
 }
 nav ul{
   float:right;
@@ -54,10 +55,11 @@ nav ul li{
 nav ul li a{
   color:white;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
+
 }
 nav ul li a:hover{
-  font-weight:500;
+  font-weight:400;
 }
 
 </style>
