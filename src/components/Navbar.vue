@@ -62,4 +62,19 @@ nav ul li a:hover{
   font-weight:400;
 }
 
+@media screen and (max-width: 600px) {
+    label.brand{
+      font-size: 18px;
+    }
+      nav ul li a{
+        color:white;
+        font-size: 16px;
+        margin: 0 1px;
+      }
+      nav ul{
+        margin-right: 10px;
+      }
+
+}
+
 </style>
