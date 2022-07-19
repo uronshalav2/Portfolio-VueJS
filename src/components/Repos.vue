@@ -50,7 +50,6 @@ export default {
     }
     .card{
         display:flex;
-        background-color: #395b64;
         flex-direction: column;
         justify-content: center;
         margin-top: 15px;
@@ -65,11 +64,10 @@ export default {
     }
     .repos{
         padding:10px;
-        background-color: #395b64;
         border: none;
         outline: none;
         font-size: 18px;
         border-radius: 6px;
-        color:white;
+        color:#395b64;
     }
 </style>
